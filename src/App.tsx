@@ -1,8 +1,8 @@
 import React, { useState, ChangeEvent } from 'react';
 import './App.scss';
-import CoffeeOrderForm from './components/CoffeeOrderForm';
+import CoffeeOrderForm from './components/DrinkOrderForm';
 import SearchAppBar from './components/SearchAppBar';
-import HomePage from './pages/HomePage/HomePage';
+import HomePage from './pages/CalculatePage/CalculatePage';
 
 interface CoffeeOrder {
   drinkType: string;

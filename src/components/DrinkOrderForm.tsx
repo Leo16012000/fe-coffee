@@ -11,7 +11,7 @@ import {
   Container,
 } from '@material-ui/core';
 
-const CoffeeOrderForm: React.FC = () => {
+const DrinkOrderForm: React.FC = () => {
   const [drinkType, setDrinkType] = useState<string>('');
   const [size, setSize] = useState<string>('');
   const [whippedCream, setWhippedCream] = useState<boolean>(false);
@@ -50,9 +50,9 @@ const CoffeeOrderForm: React.FC = () => {
   };
 
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth="xs">
       <Typography variant="h4" align="center" gutterBottom>
-        Coffee Order Form
+        Drink Order
       </Typography>
       <form onSubmit={handleSubmit}>
         <FormControl fullWidth margin="normal">
@@ -115,4 +115,4 @@ const CoffeeOrderForm: React.FC = () => {
     </Container>
   );
       }
-  export default CoffeeOrderForm
+  export default DrinkOrderForm

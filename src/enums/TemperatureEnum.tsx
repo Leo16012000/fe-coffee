@@ -1,6 +1,5 @@
-export enum DrinkType {
+export enum TemperatureEnum {
     HOT = 'HOT',
     COLD = 'COLD',
     BLENDED = 'BLENDED',
-    MILKTEA = 'MILKTEA'
   }
