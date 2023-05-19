@@ -1,4 +1,5 @@
-export default interface DrinkOptionals {
-    name: string;
-    price: number;
+export default class DrinkOptionals {
+    name!: string;
+    price!: number;
+    isChoosen!:boolean;
   }

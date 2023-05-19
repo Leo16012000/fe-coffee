@@ -5,9 +5,9 @@ import Temperatures from "./Temperatures";
 
 export default class DrinkOrders{
     constructor(drink:Drinks,size:Size,temperature:Temperatures,drinkOptionals:DrinkOptionals[]){
-      this.drink = drink,
-      this.size = size,
-      this.temperature = temperature,
+      this.drink = drink;
+      this.size = size;
+      this.temperature = temperature;
       this.drinkOptionals = drinkOptionals
     }
     drink!: Drinks;

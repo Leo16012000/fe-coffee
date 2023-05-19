@@ -1,8 +1,6 @@
 import React, { useState, ChangeEvent } from 'react';
 import './App.scss';
-import CoffeeOrderForm from './components/DrinkOrderForm';
-import SearchAppBar from './components/SearchAppBar';
-import HomePage from './pages/CalculatePage/CalculatePage';
+import CalculatePage from './pages/CalculatePage/CalculatePage';
 
 interface CoffeeOrder {
   drinkType: string;
@@ -96,7 +94,7 @@ const App: React.FC = () => {
   //     )}
   //   </div>
   // );
-  return<><HomePage/></>
+  return<><CalculatePage/></>
 };
 
 export default App;

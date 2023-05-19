@@ -1,6 +1,6 @@
 import { TemperatureEnum } from "../../enums/TemperatureEnum";
 
-export default interface Temperatures {
-    name: TemperatureEnum;
-    price: number;
+export default class Temperatures {
+    name!: TemperatureEnum;
+    price!: number;
   }
